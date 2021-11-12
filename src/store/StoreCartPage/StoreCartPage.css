@@ -129,7 +129,7 @@ button.rfc:hover {
     padding: 10px;
     border: 4px double black;
   }
-  .rfc {
+  button.rfc {
     position: relative;
     left: 20px;
     top: 20px;
@@ -164,12 +164,12 @@ button.rfc:hover {
     position: relative;
     left: 30px;
   }
-  .rfc {
+  button.rfc {
     width: 130 px;
     height: 32 px;
     position: relative;
     left: 32px;
-    top: 10 px;
+    top: 5px;
     background-color: red;
     color: white;
   }
