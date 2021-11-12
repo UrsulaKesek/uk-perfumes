@@ -162,12 +162,16 @@ button.rfc:hover {
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    left: 25px;
+    left: 30px;
   }
   .rfc {
+    width: 130 px;
+    height: 32 px;
     position: relative;
-    left: 25px;
-    top: 5px;
+    left: 32px;
+    top: 10 px;
+    background-color: red;
+    color: white;
   }
   .total {
     position: relative;
