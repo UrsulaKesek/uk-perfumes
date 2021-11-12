@@ -79,7 +79,8 @@ li.view:hover {
   }
   .sh,
   .ca,
-  .we {
+  .we,
+  li.view {
     position: relative;
     height: 3em;
     width: 13em;
