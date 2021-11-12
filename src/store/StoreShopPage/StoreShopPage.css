@@ -1,5 +1,4 @@
-.atc,
-.rtc {
+.atc {
   width: 100px;
   height: 30px;
   border-radius: 15px;
@@ -8,6 +7,12 @@
   background-color: greenyellow;
   outline: none;
   font-size: 1.3em;
+}
+.atc:hover {
+  width: 120px;
+  height: 35px;
+  background-color: rgb(255, 47, 168);
+  color: white;
 }
 .content {
   width: 1440px;
@@ -52,8 +57,7 @@ ul.spitems {
     width: 17em;
     height: 25em;
   }
-  .atc,
-  .rtc {
+  .atc {
     position: relative;
     left: 20px;
     top: 30px;
