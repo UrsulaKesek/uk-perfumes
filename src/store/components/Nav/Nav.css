@@ -64,6 +64,10 @@ li.view:hover {
   .we {
     width: 9em;
   }
+  li.view {
+    display: none;
+    visibility: hidden;
+  }
 }
 @media screen and (max-width: 375px) {
   .storenav {
@@ -71,7 +75,7 @@ li.view:hover {
     border: none;
   }
   .storenav ul {
-    height: 21em;
+    height: 30em;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -84,5 +88,19 @@ li.view:hover {
     position: relative;
     height: 3em;
     width: 13em;
+  }
+  li.view {
+    padding: 5px;
+    font-size: 16px;
+    width: 15em;
+    height: 4em;
+  }
+
+  ul.spitems {
+    width: 375 px;
+    display: flex;
+    margin-left: 0 px;
+    position: relative;
+    top: 170 px;
   }
 }
