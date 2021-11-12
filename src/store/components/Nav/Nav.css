@@ -1,0 +1,87 @@
+.storenav {
+  width: 90em;
+  height: 6em;
+  border: 0.25em solid black;
+}
+
+.storenav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.sh,
+.ca,
+.we,
+li.view {
+  position: relative;
+  top: 0px;
+  width: 10em;
+  height: 2.75em;
+  font-size: 1.5em;
+  border: 0.375em double black;
+  background-color: rgb(119, 241, 57);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(214, 233, 11, 0.885)
+  );
+  box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
+    inset -4px -4px 3px rgba(0, 0, 0, 0.6);
+  outline: none;
+  cursor: pointer;
+}
+.sh:hover,
+.ca:hover,
+.we:hover {
+  background-color: yellow;
+  color: red;
+}
+.we:hover {
+  color: blue;
+}
+li.view {
+  padding: 5px;
+  font-size: 16px;
+  width: 15em;
+  height: 4em;
+}
+li.view:hover {
+  width: 200px;
+  height: 70px;
+  background-color: rgb(243, 93, 7);
+  color: white;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .storenav {
+    width: 48em;
+    margin: 0.375em 0.375em;
+  }
+  .sh,
+  .ca,
+  .we {
+    width: 9em;
+  }
+}
+@media screen and (max-width: 375px) {
+  .storenav {
+    width: 23em;
+    border: none;
+  }
+  .storenav ul {
+    height: 21em;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .sh,
+  .ca,
+  .we {
+    position: relative;
+    height: 3em;
+    width: 13em;
+  }
+}

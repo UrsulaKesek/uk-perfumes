@@ -1,0 +1,97 @@
+section.display {
+  background-color: rgb(15, 138, 4);
+  height: 1770px;
+  width: 1440px;
+}
+h1.dis {
+  margin: 0 auto;
+  padding: 5px;
+  background-color: rgb(112, 32, 3);
+  border: 3px solid rgb(245, 151, 10);
+  color: white;
+  width: 300px;
+}
+div.desc1 {
+  position: relative;
+  top: 50px;
+  width: 373px;
+  height: 265px;
+}
+
+.img {
+  position: relative;
+  top: 25px;
+  left: 120px;
+}
+.plantitems {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px;
+}
+.name {
+  position: relative;
+  top: 25px;
+  left: 25px;
+  font-family: Arial Black, Helvetica, sans-serif;
+  color: white;
+}
+section.plantcard {
+  margin: 25px;
+  border: 3px solid rgb(245, 151, 10);
+  width: 380px;
+  height: 497px;
+  position: relative;
+  top: 30px;
+}
+@media screen and (max-width: 768px) {
+  section.display {
+    width: 768px;
+    height: 3300px;
+  }
+  section.plantitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  section.plantcard {
+    width: 670px;
+    height: 300px;
+  }
+  div.name {
+    width: 200px;
+  }
+  div.desc1 {
+    position: relative;
+    left: 340px;
+    top: -175px;
+    width: 324px;
+    height: 292px;
+  }
+  img.img {
+    position: relative;
+    left: 113px;
+    top: -10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  section.display {
+    width: 375px;
+    height: 4800px;
+  }
+  section.plantcard {
+    width: 330px;
+    height: 465px;
+  }
+  div.name {
+    width: 200px;
+  }
+  div.desc1 {
+    position: relative;
+    left: 0px;
+    top: 11px;
+    width: 324px;
+    height: 272px;
+  }
+}

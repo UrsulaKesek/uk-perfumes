@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+nav {
+  background-color: green;
+  margin: 0 auto;
+  width: 90em;
+  border: 0.2em solid black;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(green, yellow, green);
+  height:3.75em;
+  padding-inline-start: 0px;
+}
+nav ul li {
+  display: flex;
+  border: none;
+}
+a.store {
+  min-height: 0px;
+  font-size: 1;
+}
+.cabinet,
+.home,
+.plants,
+.store {
+  width: 300px;
+  height: 60px;
+  line-height: 1.5;
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 1px #000;
+  border: 6px double black;
+  background-color: rgb(119, 241, 57);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(214, 233, 11, 0.885)
+  );
+  box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
+    inset -4px -4px 3px rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+.home:hover,
+.store:hover,
+.plants:hover,
+.cabinet:hover {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .cabinet,
+  .home,
+  .plants,
+  .store {
+    width: 6.5em;
+    height: 3em;
+    letter-spacing: 2px;
+  }
+  nav {
+    width: 48em;
+  }
+}
+@media screen and (max-width: 375px) {
+  nav {
+    width: 23.4em;
+  }
+  nav ul {
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    background: linear-gradient(crimson, rgb(255, 94, 0), crimson);
+    height: 15em;
+  }
+  .cabinet,
+  .home,
+  .plants,
+  .store {
+    width: 6em;
+    height:3em;
+  }
+}

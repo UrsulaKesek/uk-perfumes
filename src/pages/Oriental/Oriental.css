@@ -1,0 +1,61 @@
+h2.olfa {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+h2.ori {
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+main.ori {
+  background: linear-gradient(rgb(69, 138, 242), rgb(138, 3, 165));
+  width: 1440px;
+  height: 550px;
+}
+.oriental1,
+.spicy1,
+.oriwood1 {
+  visibility: hidden;
+}
+p.fcb {
+  color: black;
+}
+section.flosec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+h2.olfa {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+@media screen and (max-width: 768px) {
+  main.ori {
+    width: 768px;
+  }
+  .oriental,
+  .spicy,
+  .oriwood {
+    visibility: hidden;
+    width: 0px;
+  }
+  .oriental1,
+  .spicy1,
+  .oriwood1 {
+    visibility: visible;
+    position: relative;
+  }
+  .flip-card-back {
+    height: 440px;
+  }
+}
+@media screen and (max-width: 375px) {
+  h2.ori {
+    position: relative;
+    left: 30px;
+    width: 300px;
+  }
+}

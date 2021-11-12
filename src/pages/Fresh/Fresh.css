@@ -1,0 +1,274 @@
+.fd,
+.fe,
+.ff,
+.fg {
+  position: relative;
+  left: 260px;
+  top: 350px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: yellow;
+}
+
+.flip {
+  text-align: center;
+}
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+}
+.flip-card-inner1 {
+  position: relative;
+  width: 300px;
+  height: 390px;
+  text-align: center;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  box-shadow: none;
+}
+
+.fred,
+.free,
+.fref,
+.freg {
+  position: relative;
+  top: 10px;
+  border: 4px double black;
+  width: 300px;
+  height: 390px;
+}
+.fred {
+  background-image: url(Images/fruity1.png);
+}
+.free {
+  background-image: url(Images/greena.png);
+}
+.fref {
+  background-image: url(Images/water1.png);
+}
+.freg {
+  background-image: url(Images/citrus1.png);
+}
+.fruity2,
+.greenb,
+.water2,
+.citrus2 {
+  visibility: hidden;
+}
+
+h2.fre {
+  margin: 0px;
+  padding: 5px;
+  color: black;
+  text-align: center;
+}
+h3 {
+  position: relative;
+  top: 5px;
+}
+section.fre {
+  background: linear-gradient(rgb(110, 196, 235), rgb(3, 143, 59));
+  width: 1440px;
+  height: 540px;
+}
+main.fresec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+h2.olfa {
+  text-align: center;
+  padding: 10px;
+}
+.flip-card-back,
+.flip-card-back1,
+.flip-card-back2,
+.flip-card-back3 {
+  position: absolute;
+  width: 300px;
+  height: 410px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-back,
+.flip-card-back1,
+.flip-card-back2,
+.flip-card-back3 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(247, 4, 4);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back1 {
+  background-color: rgb(9, 197, 109);
+}
+
+.flip-card-back2 {
+  background-color: rgb(84, 114, 247);
+}
+
+.flip-card-back3 {
+  background-color: rgb(115, 247, 7);
+  color: black;
+}
+.flip-card:hover .flip-card-inner1 {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  section.fre {
+    background: linear-gradient(rgb(110, 196, 235), rgb(3, 143, 59));
+    width: 768px;
+    height: 950px;
+  }
+
+  main.fresec {
+    width: 768px;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .fruity1,
+  .greena,
+  .water1,
+  .citrus1 {
+    visibility: hidden;
+    width: 0px;
+  }
+  .fruity2,
+  .greenb,
+  .water2,
+  .citrus2 {
+    visibility: visible;
+    position: relative;
+  }
+  .flip-card-inner1 {
+    position: relative;
+    left: 65px;
+    width: 240px;
+    height: 312px;
+    text-align: center;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    box-shadow: none;
+  }
+  .flip-card:hover .flip-card-inner1 {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+
+  .flip-card-front {
+    position: absolute;
+    width: 240px;
+    height: 312px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-back,
+  .flip-card-back1,
+  .flip-card-back2,
+  .flip-card-back3 {
+    position: absolute;
+    width: 240px;
+    height: 410px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+
+  .flip-card-back,
+  .flip-card-back1,
+  .flip-card-back2,
+  .flip-card-back3 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 4, 4);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-card-back1 {
+    background-color: rgb(9, 197, 109);
+  }
+
+  .flip-card-back2 {
+    background-color: rgb(84, 114, 247);
+  }
+
+  .flip-card-back3 {
+    background-color: rgb(115, 247, 7);
+    color: black;
+  }
+  h2.olfa {
+    position: relative;
+    top: 5px;
+    left: 0px;
+    color: black;
+    text-align: center;
+  }
+  h2.fre {
+    position: relative;
+    left: 0px;
+  }
+  h2.f {
+    position: relative;
+    left: 10px;
+  }
+  p.fcb {
+    position: relative;
+    width: 220px;
+    left: 5px;
+  }
+}
+@media screen and (max-width: 375px) {
+  section.fre {
+    background: linear-gradient(rgb(110, 196, 235), rgb(3, 143, 59));
+    width: 375px;
+    height: 1950px;
+  }
+
+  main.fresec {
+    width: 375px;
+    height: 1720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h2.fre {
+    width: 300px;
+    position: relative;
+  }
+  h2.f {
+    position: relative;
+  }
+  .fruity2,
+  .greenb,
+  .water2,
+  .citrus2 {
+    visibility: visible;
+    position: relative;
+  }
+  .flip-card-inner1 {
+    box-shadow: none;
+    position: relative;
+    left: 5px;
+    width: 240px;
+    height: 312px;
+    text-align: center;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    box-shadow: none;
+  }
+}
+.flip-card-back,
+.flip-card-back1,
+.flip-card-back2,
+.flip-card-back3 {
+  height: 420px;
+}

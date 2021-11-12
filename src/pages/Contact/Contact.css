@@ -1,0 +1,101 @@
+.form {
+  position: relative;
+  top: 20px;
+  left: 425px;
+  background: linear-gradient(rgb(111, 247, 44), rgba(44, 245, 218, 0.5));
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+  width: 550px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 30px;
+  color: black;
+  font-weight: bold;
+}
+.bh {
+  position: relative;
+  top:6em;
+  left: 21.5em;
+  background-color: chartreuse;
+  font-size: 0.75em;
+  padding: 5px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px black;
+}
+.contact {
+  color: rgb(241, 70, 8);
+  height: 490px;
+  position: relative;
+  top: -30px;
+}
+h1{
+  margin-block-start: 0em;
+  margin-block-end: 0.67em;
+  }
+input {
+  position: relative;
+  left: 160px;
+  top: -1.5em;
+  border: 6px double green;
+  height: 50px;
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    height:500px;
+    position: relative;
+    top: 30px;
+    left: 90px;
+    background: linear-gradient(rgb(111, 247, 44), rgba(44, 245, 218, 0.5));
+  }
+  .bh {
+    position: relative;
+    top: 80px;
+    left: 250px;
+    background-color: chartreuse;
+    font-size: 0.75em;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px black;
+  }
+  main.contact{
+    height:530px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .form {
+    width: 340px;
+    height: 600px;
+    position: relative;
+    top: 10px;
+    left: -5px;
+    align-items: center;
+  }
+  .bh {
+    position: relative;
+    top:90px;
+    left:0.75em;
+    background-color: rgb(241, 70, 8);
+    font-size: 0.6em;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+  }
+  input {
+    position: relative;
+    left: 5px;
+    top: 1px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 6px double green;
+    height: 40px;
+    width: 300px;
+  }
+  main.contact{
+    height:650px;
+  }
+}

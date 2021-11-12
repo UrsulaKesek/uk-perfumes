@@ -1,0 +1,183 @@
+h2.olfa {
+  margin: 0px;
+  position: relative;
+  top: 5px;
+  color: rgb(102, 57, 2);
+  text-align: center;
+}
+h2.flor {
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+}
+h2.f {
+  color: white;
+}
+.floa {
+  background-image: url(Images/florala.png);
+}
+.flob {
+  background-image: url(Images/floralb.png);
+}
+.floc {
+  background-image: url(Images/floralc.png);
+}
+.flip {
+  color: white;
+}
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 300px;
+  height: 390px;
+  text-align: center;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 300px;
+  height: 390px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-back {
+  display: flex;
+  flex-direction: column;
+  background-color: darkorange;
+  color: black;
+  transform: rotateY(180deg);
+}
+.floral4,
+.floral5,
+.floral6 {
+  visibility: hidden;
+}
+
+p.fcb {
+  position: relative;
+  width: 250px;
+  left: 25px;
+}
+main.flosec {
+  width: 1440px;
+  height: 470px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 768px) {
+  main.flosec {
+    width: 768px;
+    height: 510px;
+  }
+  .floral1,
+  .floral2,
+  .floral3 {
+    visibility: hidden;
+    width: 0px;
+  }
+  .floral4,
+  .floral5,
+  .floral6 {
+    visibility: visible;
+    position: relative;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 240px;
+    height: 312px;
+    text-align: center;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .flip-card-front {
+    position: absolute;
+    width: 240px;
+    height: 312px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-back {
+    position: absolute;
+    width: 240px;
+    height: 410px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+
+  .flip-card-back {
+    display: flex;
+    flex-direction: column;
+    background-color: darkorange;
+    color: black;
+    transform: rotateY(180deg);
+  }
+  h2.olfa {
+    position: relative;
+    top: 5px;
+    left: 0px;
+    color: rgb(102, 57, 2);
+    text-align: center;
+  }
+  h2.flor {
+    position: relative;
+    left: 0px;
+  }
+  h2.f {
+    position: relative;
+    left: 10px;
+  }
+  p.fcb {
+    position: relative;
+    width: 220px;
+    left: 5px;
+  }
+}
+@media screen and (max-width: 375px) {
+  main.flosec {
+    width: 375px;
+    height: 1720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h2.flor {
+    width: 300px;
+    position: relative;
+  }
+  h2.f {
+    position: relative;
+  }
+  .floral4,
+  .floral5,
+  .floral6 {
+    visibility: visible;
+    position: relative;
+  }
+  .flip-card-inner {
+    box-shadow: none;
+  }
+  .flip-card-back {
+    height: 430px;
+  }
+  }
+

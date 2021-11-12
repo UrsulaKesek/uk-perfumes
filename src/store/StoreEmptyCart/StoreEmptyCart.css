@@ -1,0 +1,50 @@
+.emptycart {
+  height: 400px;
+  margin: 0 auto;
+  background-color: rgb(75, 121, 7);
+}
+h1 {
+  position: relative;
+  top: 7px;
+  text-align: center;
+  color: white;
+}
+h2.ecc {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  color: white;
+}
+h2.ecw {
+  position: relative;
+  top: 15px;
+  text-align: center;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  h2.ecc {
+    position: relative;
+    left: 20px;
+  }
+  h2.ecw {
+    position: relative;
+    left: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .emptycart {
+    width: 375px;
+    position: relative;
+    top:50px;
+    background-color: rgb(75, 121, 7);
+  }
+
+  h2.ecc {
+    position: relative;
+    left: 1px;
+  }
+  h2.ecw {
+    position: relative;
+    left: 5px;
+  }
+}

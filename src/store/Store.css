@@ -1,0 +1,18 @@
+.storepage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 945px;
+}
+@media screen and (max-width: 768px) {
+  .storepage {
+    height: 2600px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .storepage {
+    display: flex;
+    flex-direction: column;
+    height: 3300px;
+  }
+}

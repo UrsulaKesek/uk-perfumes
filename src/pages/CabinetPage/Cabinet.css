@@ -1,0 +1,209 @@
+.aroma {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(rgb(27, 238, 224), rgb(78, 211, 12));
+  height: 520px;
+}
+h1.cbh1 {
+  position: relative;
+  top: 10px;
+  left: 80px;
+  color: rgb(27, 77, 2);
+}
+.curios {
+  display: flex;
+  flex-direction: column;
+}
+.floral,
+.fresh,
+.orient,
+.woody {
+  position: relative;
+  top: 20px;
+  left: 200px;
+  padding: 32px 26.5px 15px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 1px #000;
+  border: 6px double black;
+  background-color: rgb(78, 211, 12);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(214, 233, 11, 0.885)
+  );
+  box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
+    inset -4px -4px 3px rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+.perfOne,
+.perfTwo,
+.perfThree,
+.perfFour {
+  height: 70px;
+  width: 500px;
+}
+h2.fl,
+h2.fr,
+h2.or,
+h2.wo {
+  position: relative;
+  top: 75px;
+  left: 60px;
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(241, 70, 8);
+  text-shadow: 3px 3px 3px yellow;
+}
+img.sntwl {
+  position: relative;
+  right: 320px;
+  margin-top: 70px;
+  margin-left: 120px;
+  width: 400px;
+  height: 400px;
+}
+.wheel {
+  background: linear-gradient(rgb(69, 138, 242), rgb(206, 75, 233));
+  height: 520px;
+}
+@media screen and (max-width: 768px) {
+  .aroma {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 980px;
+    width: 768px;
+    background: linear-gradient(rgb(27, 238, 224), rgb(78, 211, 12));
+  }
+  main.cbmain {
+    width: 768px;
+    height: 1200px;
+  }
+  h1.cbh1 {
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    left: 190px;
+    top: 20px;
+    width: 350px;
+    color: rgb(165, 4, 157);
+    text-shadow: 3px 3px 3px rgb(248, 246, 246);
+  }
+  h2.fl,
+  h2.fr,
+  h2.or,
+  h2.wo {
+    position: relative;
+    left: 50px;
+    color: rgb(165, 4, 157);
+    text-shadow: 3px 3px 3px rgb(248, 246, 246);
+  }
+  .perfOne,
+  .perfTwo,
+  .perfThree,
+  .perfFour {
+    height: 65px;
+  }
+  img.sntwl {
+    margin-top: 70px;
+    margin-left: 180px;
+    position: relative;
+    left: 10px;
+    top: -30px;
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 375px) {
+  main.cbmain {
+    width: 375px;
+  }
+  .floral,
+  .fresh,
+  .orient,
+  .woody {
+    width: 170px;
+    height: 40px;
+    position: relative;
+    top: -50px;
+    left: 170px;
+    padding: 2px 2px 2px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px #000;
+    border: 6px double black;
+    background-color: rgb(78, 211, 12);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(214, 233, 11, 0.885)
+    );
+    box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
+      inset -4px -4px 3px rgba(0, 0, 0, 0.6);
+    outline: none;
+  }
+  h2.fl,
+  h2.fr,
+  h2.or,
+  h2.wo {
+    width: 200px;
+    position: relative;
+    left:40px;
+    color: rgb(165, 4, 157);
+    text-shadow: 3px 3px 3px rgb(248, 246, 246);
+  }
+
+  section.aroma {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 375px;
+    height: 1650px;
+    background: linear-gradient(rgb(27, 238, 224), rgb(78, 211, 12));
+  }
+  h1.cbh1 {
+    width: 375px;
+    position: relative;
+    left: 0px;
+  }
+  img.sntwl {
+    margin-top: 70px;
+    margin-left: -120px;
+    position: relative;
+    left: 160px;
+    width: 300px;
+    height: 300px;
+  }
+  .perfOne,
+  .perfThree {
+    height: 250px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+  }
+  .perfTwo,
+  .perfFour {
+    height: 300px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  aside.wheel {
+    position: relative;
+    top: -100px;
+    background: linear-gradient(rgb(69, 138, 242), rgb(206, 75, 233));
+    height: 375px;
+    width: 375px;
+  }
+}

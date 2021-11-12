@@ -1,0 +1,237 @@
+.bird {
+  position: relative;
+  top: 3em;
+  left: 2.5em;
+  height: 9em;
+  width: 10em;
+  border: 0.25em solid yellow;
+  visibility: visible;
+}
+.blue1,
+.chick {
+  visibility: hidden;
+}
+body {
+  width: 90em;
+  background: linear-gradient(rgb(55, 54, 56), rgb(78, 211, 12));
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  width: 18.75em;
+  height: 32em;
+  background-image: linear-gradient(red, yellow);
+}
+.box3 {
+  height: 32em;
+  width: 9.375em;
+  background-image: linear-gradient(red, yellow);
+}
+.contact1 {
+  position: relative;
+  bottom: 3.9em;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+.contact1:hover {
+  background-color: rgb(255, 111, 0);
+  color: darkslateblue;
+}
+.green1 {
+  position: relative;
+  top: 6.5em;
+  left: 2.5em;
+  height: 9em;
+  width: 10em;
+  border: 0.25em solid yellow;
+  visibility: visible;
+}
+h2.hph2 {
+  position: relative;
+  left: 1em;
+  padding: 0.6em;
+  height: 1.9em;
+  width: 12em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  align-items: center;
+}
+img.bubble {
+  position: relative;
+  left: 3em;
+  height: 32em;
+  visibility: visible;
+}
+
+img.front {
+  content: url(Images/aw-front.png);
+  position: relative;
+  left: 1em;
+  height: 32em;
+}
+img.front2 {
+  width: 0em;
+  visibility: hidden;
+}
+section.main {
+  display: flex;
+  flex-direction: row;
+  width: 90em;
+  height: 31em;
+}
+@media screen and (max-width: 768px) {
+  .bird,
+  .front,
+  .green1 {
+    width: 0em;
+    height: 0em;
+    visibility: hidden;
+  }
+  .blue1 {
+    width: 9em;
+    height: 9em;
+    margin: 0.5em;
+    visibility: visible;
+    position: relative;
+    left: 1.5em;
+    top: 4em;
+    border: 0.25em solid yellow;
+  }
+  body {
+    width: 48em;
+  }
+  .box2 {
+    width: 14.375em;
+    height: 33.2em;
+  }
+  .box3 {
+    position: relative;
+    width: 7em;
+    left: 2em;
+    visibility: visible;
+    height: 33.2em;
+  }
+  .chick {
+    visibility: visible;
+    position: relative;
+    left: 2em;
+    height: 8.5em;
+    width: 8.5em;
+    border: 0.25em solid yellow;
+  }
+  .contact1 {
+    position: relative;
+    top: 10em;
+    color: black;
+  }
+  h2.hph2 {
+    width: 8.75em;
+    height: 1em;
+  }
+  img.bubble {
+    position: relative;
+    left: 1.2em;
+    height: 33.2em;
+  }
+  img.front {
+    width: 0px;
+    visibility: hidden;
+  }
+  img.front2 {
+    content: url(Images/aw-front2.png);
+    width: 24em;
+    visibility: visible;
+    position: relative;
+    left: 1em;
+    top: 1em;
+    border: 6px double black;
+  }
+  section.main {
+    width: 48em;
+    height: 31.5em;
+  }
+}
+@media screen and (max-width: 375px) {
+  .bird,
+  .front,
+  .green1 {
+    width: 0em;
+    height: 0em;
+    border: none;
+    visibility: hidden;
+  }
+  .blue1 {
+    position: relative;
+    top: 6em;
+    left: 6.5em;
+    width: 8em;
+    height: 9em;
+  }
+  body {
+    width: 23.4em;
+  }
+  .box2 {
+    width: 22em;
+    position: relative;
+    top: 1em;
+    left: 0.75em;
+  }
+  .box3 {
+    width: 22em;
+    height: 36em;
+    position: relative;
+    top: 4em;
+    left: 0.75em;
+    background: linear-gradient(crimson, rgb(255, 94, 0), crimson);
+  }
+  .chick {
+    width: 8em;
+    height: 8em;
+    position: relative;
+    left: 7em;
+    top: 2em;
+  }
+  .contact1 {
+    height: 2em;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: bold;
+    position: trelative;
+    left: 0em;
+    top: 11em;
+  }
+  h2.hph2 {
+    text-align: center;
+    width: 14em;
+    height: 1em;
+  }
+  img.bubble {
+    border: 0.3em solid yellow;
+    position: relative;
+    left: 9em;
+    top: 0.75em;
+  }
+  img.front {
+    visibility: hidden;
+    height: 0em;
+  }
+  img.front2 {
+    width: 23.25em;
+    height: 33em;
+    position: relative;
+    top: 2.5em;
+    left: 0.1em;
+    border: 1em double rgb(250, 222, 7);
+  }
+  section.main {
+    display: flex;
+    flex-direction: column;
+    width: 23.4em;
+    height: 107em;
+  }
+}

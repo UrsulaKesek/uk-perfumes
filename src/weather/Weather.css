@@ -1,0 +1,151 @@
+div.weather-card{
+  position: relative;
+  top:-270px;
+  left:-250px;
+}
+
+.weapp {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 660px;
+  align-items: flex-end;
+  width: 500px;
+  height: 470px;
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+  color: white;
+}
+.lost {
+  padding: 5px;
+  position: relative;
+  background-color: rgb(242, 245, 51);
+  top: 30px;
+  left: -20px;
+  font-size: 1.5em;
+  color: black;
+  border: 4px double black;
+}
+.search {
+  position: relative;
+  top: 20px;
+  left: 5.5em;
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  border: 6px double black;
+  background-color: rgb(3, 232, 248);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(214, 233, 11, 0.885)
+  );
+  box-shadow: inset 4px 4px 4px rgba(255, 255, 255, 0.6),
+    inset -4px -4px 3px rgba(0, 0, 0, 0.6);
+  color:black;
+  outline: none;
+  cursor: pointer;
+}
+
+.stormy {
+  position: relative;
+  right: 30px;
+  background-color: darkslateblue;
+}
+.stormy1 {
+  position: relative;
+  left: 30px;
+  background-color: darkslateblue;
+}
+@media screen and (max-width: 768px) {
+  div.weather-card{
+    position: relative;
+    top:-270px;
+    left:300px;
+  }
+  
+  .lost {
+    padding: 5px;
+    position: relative;
+    background-color: rgb(242, 245, 51);
+    top: 30px;
+    left: -182px;
+    font-size: 1.5em;
+    color: black;
+    border: 4px double black;
+  }
+
+  .search {
+    position: relative;
+    left: -30px;
+    bottom: 150px;
+    width: 150px;
+    height: 50px;
+  }
+  .weapp {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -60px;
+    align-items: flex-end;
+    width: 500px;
+    height: 470px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+  }
+  h2 {
+    position: relative;
+    left: -160px;
+  }
+}
+@media screen and (max-width: 375px) {
+  div.weather-card{
+    position: relative;
+    top:120px;
+    left:25px;
+  }
+
+  h2 {
+    position: relative;
+    left: -60px;
+  }
+  .lost {
+    padding: 5px;
+    position: relative;
+    background-color: rgb(242, 245, 51);
+    top: -40px;
+    left: -182px;
+    font-size: 1.5em;
+    color: black;
+    border: 4px double black;
+  }
+  main.content{
+    height:1200px;
+  }
+  .search {
+    position: relative;
+    top: 10px;
+    left: 80px;
+    height: 50px;
+    font-size: 0.75rem;
+    line-height: 1.75;
+  }
+  .weapp {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:-20px;
+    top:30px;
+    align-items: flex-end;
+    width: 375px;
+    height: 1200px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+  }
+}

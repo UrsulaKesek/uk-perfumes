@@ -1,0 +1,27 @@
+
+.weather-card {
+  background: linear-gradient(#f574f1, #04abf3);
+  width: 400px;
+  height: 440px;
+  color: black;
+  border: 6px double black;
+}
+@media screen and (max-width: 768px) {
+  .weather-card {
+    background: linear-gradient(#f574f1, #04abf3);
+    width: 400px;
+    height: 440px;
+    color: black;
+    border: 6px double black;
+  }
+  }
+  @media screen and (max-width: 375px) {
+    .weather-card {
+      background: linear-gradient(#f574f1, #04abf3);
+      width: 370px;
+      height: 600px;
+      color: black;
+      border: 6px double black;
+    }
+    }
+  
