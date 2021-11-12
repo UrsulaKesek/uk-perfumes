@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/uk-perfumes/precache-manifest.27c9afcb3e63afdca133f68088b6d4bb.js"
+  "/uk-perfumes/precache-manifest.bab899b4db729849a0430fcb7bf1d95f.js"
 );
 
 self.addEventListener('message', (event) => {

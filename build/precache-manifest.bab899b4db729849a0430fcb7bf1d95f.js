@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc73f5afd546478097e81d9fba2d5f61",
+    "revision": "ebbc584e84f2aa1d05391b2b5f29cc3a",
     "url": "/uk-perfumes/index.html"
   },
   {
-    "revision": "5aa22a854440642c050e",
+    "revision": "905433ebae575a229bda",
     "url": "/uk-perfumes/static/css/main.2f8a807a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uk-perfumes/static/js/2.5bbb9943.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5aa22a854440642c050e",
-    "url": "/uk-perfumes/static/js/main.1e001e2d.chunk.js"
+    "revision": "905433ebae575a229bda",
+    "url": "/uk-perfumes/static/js/main.2ee91ca5.chunk.js"
   },
   {
     "revision": "063a662fce386686fdad",
