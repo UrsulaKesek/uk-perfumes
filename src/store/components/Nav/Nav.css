@@ -48,11 +48,11 @@ li.view {
   height: 4em;
 }
 li.view:hover {
-  width: 200px;
+  width: 15em;
   height: 70px;
   background-color: rgb(243, 93, 7);
   color: white;
-  font-size: 20px;
+  font-size: 16px;
 }
 @media screen and (max-width: 768px) {
   .storenav {
