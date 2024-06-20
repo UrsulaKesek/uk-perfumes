@@ -29,7 +29,7 @@ const Store = () => {
     if (index >= 0) {
       setCart((cart) => {
         const cartCopy = [...cart];
-        cartCopy.splice(cart.length, item.id);
+        cartCopy.splice(index,1);
         return cartCopy;
       });
     }
