@@ -43,9 +43,10 @@ const Store = () => {
         const cartCopy = [...cart];
         cartCopy.splice(index, item.count);
         console.log(item.count);
-        console.log(cart);
-
+        console.log(cartCopy);
         return cartCopy;
+
+
       });
     }
   };
