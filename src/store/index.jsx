@@ -42,7 +42,7 @@ const Store = () => {
       setCart((cart) => {
         const cartCopy = [...cart];
         console.log(cart);
-        cartCopy.splice(item.id, item.count);
+        cartCopy.splice(index, item.count);
         console.log(item.count);
         return cartCopy;
       });
