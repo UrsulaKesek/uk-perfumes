@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Store.css";
 import Nav from "./components/Nav";
 import StoreContent from "./StoreContent";
-import Item from "./Item";
 
 const Store = () => {
   const [activeTab, setActiveTab] = useState("shop");
@@ -42,7 +41,7 @@ const Store = () => {
     if (index >= 0) {
       setCart((cart) => {
         const cartCopy = [...cart];
-        cartCopy.splice(index,Item);
+        cartCopy.splice(index,item.count);
         console.log(item.count);
         console.log(cartCopy);
         return cartCopy;
