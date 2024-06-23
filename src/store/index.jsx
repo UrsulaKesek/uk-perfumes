@@ -41,7 +41,7 @@ const Store = () => {
     if (index >= 0) {
       setCart((cart) => {
         const cartCopy = [...cart];
-        cartCopy.splice(index,item.length);
+        cartCopy.splice(index,item.count);
         console.log(item.length);
         console.log(cartCopy);
         return cartCopy;
