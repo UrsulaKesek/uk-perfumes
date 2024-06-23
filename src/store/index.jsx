@@ -10,7 +10,6 @@ const Store = () => {
 
   function addToCart(item) {
     setCart((oldCart) => [...oldCart, item]);
-    console.log (setCart);
   }
 
   const totalCart = (cart) => {
