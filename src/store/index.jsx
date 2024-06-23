@@ -35,18 +35,18 @@ const Store = () => {
     }
   };
 
-  const onTakeOff = (item) => {
-    let index = cart.findIndex((i) => i.id === item.id);
+  const onTakeOff = (items) => {
+    let index = cart.findIndex((i) => i.id === items.id);
     console.log(index);
     if (index >= 0) {
       setCart((cart) => {
         const cartCopy = [...cart];
-        cartCopy.splice(index,cart.count);
-        console.log(item.count);
+        cartCopy.splice(index, items.count);
+
+        console.log(items.count);
         console.log(cartCopy);
+
         return cartCopy;
-
-
       });
     }
   };
